@@ -1,0 +1,189 @@
+/*EstilosGenerales.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HeaderPrincipal.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+header {
+    background-color: #424242;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-contenedor {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TituloBanco {
+    position: relative;
+    top: -15%;
+    left: 15%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 35px;
+
+}
+
+.slogan {
+    position: relative;
+    top: 25%;
+    left: -38.5%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px;
+}
+
+.botonlogin {
+    border-radius: 10px;
+    border-color: #229799;
+    background-color: #424242;
+    height: 45px;
+    width: 230px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.BPrincipal {
+    position: absolute;
+    top: 18%;
+    left: -5%;
+    z-index: 2;
+    background-color: transparent;
+    width: 110%;
+    height: 110%;
+    border: none;
+    cursor: pointer;
+}
+
+/*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+.BarraNav {
+    background-color: #229799;
+    padding: 1%;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotonesBarraNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.boton {
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #229799;
+    color: white;
+    transition: background-color 0.3s ease;
+    height: 30px;
+    padding: 1px;
+    font-size: 18px;
+    flex-grow: 1;
+    width: 180px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #48CFCB;
+}
+
+/*Imagen.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+.ImgTrans {
+    display: flex   ;
+    height: 100%;
+    width: 100%;
+}
+
+/*ContenedorTransferencias.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+.Transferencias{
+position: absolute;
+padding: 40px;
+background-color: #424242d7;
+border-radius: 20px;
+width: 25%;
+height: 50%;
+top: 55%;
+left: 59%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
+h2{
+    color: white;
+}
+
+/*Transferencias.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+.TipoCuenta{
+    color: white;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+input[type="radio"] {
+    transform: scale(2); 
+    margin: 10px;
+}
+.btnregresar{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 5%; 
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.btnregresar:hover{
+    background-color: #48CFCB;
+}
+.TransForm{
+    margin-top: 10%;
+}
+.TransForm input{
+    width: 100%;
+    margin: 10px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #424242;
+}
+.TransForm h4{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+/*PieDePagina.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+footer {
+    background-color: #424242;
+    width: 100%;
+    height: 100px;
+}

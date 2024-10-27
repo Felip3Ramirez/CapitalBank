@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IniciandoSesion</title>
+    <link rel="stylesheet" href="CSS/StylesLogin.css">
+</head>
+
+<body>
+    <div id="contenedor-login" class="contenedor-login">
+        <form>
+            <h2>Inicie Sesion</h2>
+            <input type="text" placeholder="Número de cuenta" id="numero-cuenta" required>
+            <input type="password" placeholder="Contraseña" id="contraseña" required>
+            <div class="botones">
+                <button id="AbrirSesion">Abrir sesion</button>
+                <button id="Registro" onclick="window.location.href='register.html'">Registrarse</button>
+                <button id="CerrarLogin" onclick="window.location.href='index.html'">Cerrar</button>
+            </div>
+        </form>
+    </div>
+    <img src="IMG/inicio_registro.jpg" class="imagen-login">
+</body>
+
+</html>

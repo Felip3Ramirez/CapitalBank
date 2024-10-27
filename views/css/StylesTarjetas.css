@@ -1,0 +1,197 @@
+/*EstilosGenerales.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HeaderPrincipal.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+header {
+    background-color: #424242;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-contenedor {
+    position: relative;
+    height: 100px;
+    /* ajusta la altura del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TituloBanco {
+    position: relative;
+    top: -15%;
+    /* ajusta la distancia desde la parte superior */
+    left: 15%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 35px;
+
+}
+
+.slogan {
+    position: relative;
+    top: 25%;
+    /* ajusta la distancia desde la parte inferior */
+    left: -38.5%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px;
+}
+
+.botonlogin {
+    border-radius: 10px;
+    border-color: #229799;
+    background-color: #424242;
+    height: 45px;
+    width: 230px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    right: 20px;
+}
+
+.BPrincipal {
+    position: absolute;
+    top: 18%;
+    left: -5%;
+    z-index: 2;
+    background-color: transparent;
+    width: 110%;
+    height: 110%;
+    border: none;
+}
+
+/*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+.BarraNav {
+    background-color: #229799;
+    padding: 1%;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotonesBarraNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.boton {
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #229799;
+    color: white;
+    transition: background-color 0.3s ease;
+    height: 30px;
+    padding: 1px;
+    font-size: 18px;
+    flex-grow: 1;
+    width: 180px;
+}
+
+.boton:hover {
+    background-color: #48CFCB;
+}
+
+/*PieDePagina.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+footer {
+    display: flex;
+    margin-top: 70%;
+    background-color: #424242;
+    width: 100%;
+    height: 100px;
+
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.contenido-principal {
+    width: 1000px;
+    align-items: center;
+    margin: 20px;
+    top: 25%;
+    position: absolute;
+    left: 2%;
+
+}
+
+h1 {
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    line-height: normal;
+    align-content: center;
+}
+
+.boton-solicitar {
+    width: 10%;
+    height: 30px;
+    background-color: #48CFCB;
+    color: white;
+    margin: 60px;
+    position: absolute;
+    left: 15%;
+    cursor: pointer;
+
+}
+
+section {
+    position: absolute;
+    right: 5%;
+    top: 28%;
+}
+
+.tarjeta-clasica {
+    position: absolute;
+    top: 60%;
+    width: 1000px;
+    left: 2%;
+    height: 200px;
+
+}
+
+.tarjeta-clasica img {
+    position: absolute;
+    left: 100%;
+    top: 65%;
+
+}
+
+.tarjeta-Gold {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
+.tarjeta-Gold h1 {
+    font-size: 40px;
+}
+
+.tarjeta-Gold img {
+    position: relative;
+    margin: 20px;
+}

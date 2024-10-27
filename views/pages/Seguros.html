@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/StylesSeguros.css">
+    <title>Seguros CapitalBank</title>
+</head>
+
+<body>
+    <header>
+        <img src="IMG/CBNormal.jpg">
+        <div class="TituloBanco">
+            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
+                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        </div>
+        <p class="slogan">Tu banco de confianza</p>
+        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+    </header>
+    <div class="BarraNav">
+        <nav>
+            <ul>
+                <div class="BotonesBarraNav">
+                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
+                    </button>
+                    <span class="separador"></span>
+                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
+                    </button>
+                    <span class="separador"></span>
+                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
+                    </button>
+                    <span class="separador"></span>
+                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
+                            Credito</b>
+                    </button>
+                    <span class="separador"></span>
+                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
+                    </button>
+                    <span class="separador"></span>
+                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
+                    </button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <h3>Nuestros Seguros</h3>
+        <p class="ParrafoSeguro">En Capital Bank, entendemos la importancia de proteger lo que más valoras. Por eso, ofrecemos una amplia gama
+            de seguros diseñados para brindarte tranquilidad en cada etapa de tu vida.</p>
+
+        <div class="target_seguro">
+            <a href="/SeguroVida.html">
+                <h5>Seguro de Vida</h5>
+                <p>Protege a tus seres queridos y asegura su futuro financiero con nuestro seguro de vida
+                    personalizable.
+                </p>
+            </a>
+            <a href="/SeguroAuto.html">
+                <h5>Seguro de Auto</h5>
+                <p>Conduce con tranquilidad sabiendo que estás protegido contra accidentes y daños a terceros.</p>
+            </a>
+            <a href="/SeguroHogar.html">
+                <h5>Seguro de Hogar</h5>
+                <p>Protege tu hogar y tus pertenencias contra daños, robos y desastres naturales.</p>
+            </a>
+            <a href="/SeguroSalud.html">
+                <h5>Seguro de Salud</h5>
+                <p>Cuida de ti y tu familia con nuestros planes de salud integrales y accesibles.</p>
+            </a>
+        </div>
+    </section>
+    <script src="JS/Script.js"></script>
+    <footer>
+    </footer>
+</body>
+
+</html>
