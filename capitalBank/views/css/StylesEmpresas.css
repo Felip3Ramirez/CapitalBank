@@ -215,8 +215,8 @@ header {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-  .asesor{
+}
+.asesor{
     position: absolute;
     background-color: #4CAF50; /* Color de fondo */
     color: white; /* Color del texto */

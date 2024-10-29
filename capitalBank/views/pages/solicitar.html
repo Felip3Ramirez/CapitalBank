@@ -4,45 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Stylessolicitar.css">
+    <link rel="stylesheet" href="/capitalBank/views/css/solicitar.css">
     <title>Tarjetas De Credito</title>
 </head>
 
 <body>
     <header>
-        <img src="IMG/CBNormal.jpg">
-        <div class="TituloBanco">
-            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
-                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        <img src="/capitalBank/views/img/CBNormal.jpg" />
+        <div class="contenedorTituloBanco">
+            <h1 class="tituloBanco">
+                <button class="botonPrincipal" id="PaginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank
+            </h1>
         </div>
         <p class="slogan">Tu banco de confianza</p>
-        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+        <button class="botonlogin" id="loginBoton" onclick="IrALogin()">
+            Inicio / Registro
+        </button>
     </header>
-    <div class="BarraNav">
+    <div class="barraNavegacion">
         <nav>
             <ul>
-                <div class="BotonesBarraNav">
-                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
+                <div class="botonesBarraNavegacion">
+                    <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()">
+                        <b>Cuentas De Ahorro</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
+                    <button class="boton" id="serviciosBoton" onclick="IrAServicios()">
+                        <b>Servicios</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="IrALineasCredito()">
+                        <b>Lineas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
-                            Credito</b>
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="IrATarjetasCredito()">
+                        <b>Tarjetas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
+                    <button class="boton" id="segurosBoton" onclick="IrASeguros()">
+                        <b>Seguros</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
+                    <button class="boton" id="empresasBoton" onclick="IrAEmpresas()">
+                        <b>Empresas</b>
                     </button>
                 </div>
             </ul>
         </nav>
+    </div>
 
         <div class="formulario">
 
