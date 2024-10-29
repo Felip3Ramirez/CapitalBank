@@ -1,37 +1,37 @@
 //botones del header y barra de navegacion primerias
 function IrARegistro() {
-    window.location.href = "Register.html";
+    window.location.href = "register.html";
 }
 function IrALogin() {
-    window.location.href = "Login.html";
+    window.location.href = "login.html";
 }
 function IrAPrincipal() {
-    window.location.href = "Index.html";
+    window.location.href = "index.html";
 }
 function IrAServicios() {
-    window.location.href = "Servicios.html";
+    window.location.href = "servicios.html";
 }
 function IrATarjetasCredito() {
-    window.location.href = "Tarjetas.html";
+    window.location.href = "tarjetas.html";
 }
 function IrACuentasAhorro() {
-    window.location.href = "CuentasAhorros.html";
+    window.location.href = "cuentasAhorros.html";
 }
 function IrALineasCredito() {
-    window.location.href = "LineasCredito.html";
+    window.location.href = "lineasCredito.html";
 }
 function IrAEmpresas() {
-    window.location.href = "Empresas.html";
+    window.location.href = "empresas.html";
 }
 function IrASeguros() {
-    window.location.href = "Seguros.html";
+    window.location.href = "seguros.html";
 }
 //botones de los servicios
 function IrANotificacion() {
-    window.location.href = "Notificaciones.html";
+    window.location.href = "notificaciones.html";
 }
 function IrATransferencias() {
-    window.location.href = "Transferencias.html";
+    window.location.href = "transferencias.html";
 }
 function IrAPagoFactura() {
     window.location.href = ".html";

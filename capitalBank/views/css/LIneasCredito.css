@@ -17,6 +17,7 @@ header {
 }
 
 .titulo-contenedor {
+    background-color: #229799;
     position: relative;
     height: 100px;
     /* ajusta la altura del contenedor */
@@ -25,7 +26,7 @@ header {
     align-items: center;
 }
 
-.TituloBanco {
+.tituloBanco,.contenedorTituloBanco {
     position: relative;
     top: -15%;
     /* ajusta la distancia desde la parte superior */
@@ -61,7 +62,7 @@ header {
     right: 20px;
 }
 
-.BPrincipal {
+.botonPrincipal {
     position: absolute;
     top: 18%;
     left: -5%;
@@ -73,7 +74,7 @@ header {
 }
 
 /*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-.BarraNav {
+.barraNavegacion {
     background-color: #229799;
     padding: 1%;
     text-align: center;
@@ -83,7 +84,7 @@ header {
     align-items: center;
 }
 
-.BotonesBarraNav {
+.botonesBarraNavegacion {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,7 +109,7 @@ header {
     background-color: #48CFCB;
 }
 
-.contenedor-opciones {
+.contenedorOpciones {
     width: 100%;
     height: 100vh;
     /* Ocupar la altura completa del viewport */
@@ -120,7 +121,7 @@ header {
     background-image: url(/IMG/deudas.jpg);
 }
 
-.Textos {
+.textos {
     width: 100%;
     height: 10%;
     background-color: #229799;
@@ -129,18 +130,18 @@ header {
     border-top: Shadow;
      
 }
-.Textos h1{
+.textos h1{
     font-size: 120%;
     color: white;
     padding-top: 1%;  
     
 }
-.Textos >p{
+.textos >p{
     font-size: 120%;
     color:white;
 }
 
-.Opciones {
+.opciones {
     margin: 0%;
     width: 73%;
     height: 90%;
@@ -206,7 +207,7 @@ align-items: center;
     background-color: #48CFCB;
 }
 
-.Solicitar {
+.solicitar {
     width: 30%;
     height: 10%;
     position: absolute;
@@ -216,7 +217,7 @@ align-items: center;
     border-radius: 10%;
     font-size: 75%;
 }
-.Solicitar:hover{
+.solicitar:hover{
     
         background-color: #48CFCB; 
 }
@@ -231,7 +232,7 @@ align-items: center;
     border-radius: 10%;
 }
 
-.additional-info {
+.informacionAdicional {
     background-color: #f9f9f9;
     padding: 15px;
     border: 1px solid #ddd;
@@ -241,18 +242,18 @@ align-items: center;
     height: 60px;
 }
 
-.additional-info ul {
+.informacionAdicional ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.additional-info li {
+.informacionAdicional li {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.additional-info li:last-child {
+.informacionAdicional li:last-child {
     border-bottom: none;
 }
 

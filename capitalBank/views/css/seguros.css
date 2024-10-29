@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 /*HeaderPrincipal.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
@@ -18,16 +17,20 @@ header {
 }
 
 .titulo-contenedor {
+    background-color: #229799;
     position: relative;
     height: 100px;
+    /* ajusta la altura del contenedor */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.TituloBanco {
+.tituloBanco,
+.contenedorTituloBanco {
     position: relative;
     top: -15%;
+    /* ajusta la distancia desde la parte superior */
     left: 15%;
     transform: translateX(-50%);
     color: white;
@@ -38,6 +41,7 @@ header {
 .slogan {
     position: relative;
     top: 25%;
+    /* ajusta la distancia desde la parte inferior */
     left: -38.5%;
     transform: translateX(-50%);
     color: white;
@@ -57,10 +61,9 @@ header {
     color: white;
     position: absolute;
     right: 20px;
-    cursor: pointer;
 }
 
-.BPrincipal {
+.botonPrincipal {
     position: absolute;
     top: 18%;
     left: -5%;
@@ -69,12 +72,10 @@ header {
     width: 110%;
     height: 110%;
     border: none;
-    cursor: pointer;
 }
 
 /*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-
-.BarraNav {
+.barraNavegacion {
     background-color: #229799;
     padding: 1%;
     text-align: center;
@@ -84,7 +85,7 @@ header {
     align-items: center;
 }
 
-.BotonesBarraNav {
+.botonesBarraNavegacion {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -92,44 +93,7 @@ header {
 }
 
 .boton {
-    margin: 0 5px;
-    border: none;
-    border-radius: 10px;
-    background-color: #229799;
-    color: white;
-    transition: background-color 0.3s ease;
-    height: 30px;
-    padding: 1px;
-    font-size: 18px;
-    flex-grow: 1;
-    width: 180px;
-    cursor: pointer;
-}
-
-.boton:hover {
-    background-color: #48CFCB;
-}
-
-/*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-.BarraNav {
-    background-color: #229799;
-    padding: 1%;
-    text-align: center;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.BotonesBarraNav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-
-.boton {
-    margin: 0 5px;
+    margin: 5px;
     border: none;
     border-radius: 10px;
     background-color: #229799;
@@ -149,7 +113,7 @@ header {
 /*BotonesSeguros.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
 section {
-    background-image: linear-gradient(#9b9a9a95, transparent), url(/IMG/FondoSeguros.png);
+    background-image: linear-gradient(#9b9a9a95, transparent), url(/capitalBank/views/img/fondoSeguros.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,14 +134,14 @@ section h3 {
     font-weight: bolder;
 }
 
-section .ParrafoSeguro {
+section .parrafoSeguro {
     color: #fff;
     margin: 10px auto 10px 50px;
     font-weight: 400;
 
 }
 
-.target_seguro {
+.targetaSeguro {
     width: 60%;
     box-sizing: content-box;
     height: 400px;
@@ -224,12 +188,13 @@ section div a p {
 
 /* SeguroVida.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 
-.contenedorSeguroVida{
-    background-image:linear-gradient(#33323295, transparent), url(/IMG/FondoSeguroVida.jpg);
+.contenedorSeguroVida {
+    background-image: linear-gradient(#33323295, transparent), url(/capitalBank/views/img/fondoSeguroVida.jpg);
     height: auto;
     width: 100%;
-    
+
 }
+
 .card {
     border: 2px solid #43beba;
     border-radius: 10px;
@@ -241,26 +206,27 @@ section div a p {
     font-weight: 400;
     position: relative;
 }
-.cardFinal{
+
+.cardFinal {
     border: 2px solid #43beba;
     border-radius: 10px;
     width: 70%;
     height: auto;
     text-decoration: none;
     color: black;
-    background-color: #48cfcb91;
+    background-color: #48cfcbc6;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 40px;
-
-
 }
-.botonCotizar{
+
+.botonCotizar {
     text-align: center;
     padding: 10px;
     margin: 10px;
     width: 20%;
     display: block;
+    border: 2px solid #197172;
     background-color: #229799;
     border-radius: 10px;
     color: rgb(224, 224, 224);
@@ -268,26 +234,31 @@ section div a p {
     cursor: pointer;
     transition: ease 0.2s;
 }
-.botonCotizar:hover{
-    background-color:#2fc1c4 ;
-    
+
+.botonCotizar:hover {
+    background-color: #2fc1c4;
+
     transition: ease 0.2s;
 }
-#modal{
+
+#modal {
     display: none;
 }
-#modal:checked ~ .acesor{
+
+#modal:checked~.acesor {
     display: flex;
 }
-.cerrar{
-position: absolute;
-right: 10px;
-top: 5px;
-font-weight: bolder;
-color: #fff;
-cursor: pointer;
+
+.cerrar {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
 }
-.acesor{
+
+.acesor {
     margin-left: 0;
     align-items: center;
     justify-content: center;
@@ -298,12 +269,13 @@ cursor: pointer;
     position: fixed;
     display: none;
 }
-.acesor .card{
+
+.acesor .card {
     background-color: #48CFCB;
 
 }
 
-.acesor .card p{
+.acesor .card p {
     padding: 30px;
     background-color: #48CFCB;
     border-radius: 10px;
@@ -312,10 +284,10 @@ cursor: pointer;
     color: #fff;
 }
 
-.targets{
+.targetas {
     width: 60%;
     box-sizing: content-box;
-    
+
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 0px;
@@ -326,37 +298,43 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
 }
-.card p , .cardFinal p{
+
+.card p,
+.cardFinal p {
     padding-left: 10px;
     color: #ffffff;
     margin-bottom: 40px;
 }
-.card h5{
-    padding: 10px;
-    color: #197172;
-    font-size: 20px;
-}
-.cardFinal h5{
+
+.card h5 {
     padding: 10px;
     color: #197172;
     font-size: 20px;
 }
 
-.cardFinal ul li{
+.cardFinal h5 {
+    padding: 10px;
+    color: #197172;
+    font-size: 20px;
+}
+
+.cardFinal ul li {
     margin-top: 2px;
     margin-left: 30px;
     color: #ffffff;
-    
+
 }
+
 /* SeguroAuto.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 
-.contenedorSeguroAuto{
-    background-image: linear-gradient(#33323295, transparent), url(/IMG/FondoSeguroAuto.jpg);
+.contenedorSeguroAuto {
+    background-image: linear-gradient(#33323295, transparent), url(/capitalBank/views/img/fondoSeguroAuto.jpg);
 }
-.targetsAutos{
+
+.targetasAutos {
     width: 90%;
     box-sizing: content-box;
-    
+
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 0px;
@@ -367,7 +345,8 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
 }
-.targetsAutos .card {
+
+.targetasAutos .card {
     border: 2px solid #43beba;
     border-radius: 10px;
     width: 23%;
@@ -378,35 +357,39 @@ cursor: pointer;
     font-weight: 400;
     position: relative;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-label{
+
+label {
     margin-left: 20px;
     color: #fff;
 }
-input{
+
+input {
     margin: 0px 80px 0px 20px;
     padding: 5px;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000 ;
+    border-bottom: 1px solid #000000;
 }
-::placeholder{
+
+::placeholder {
     color: #3c3b3b;
 }
 
 /* SeguroHogar.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
-.contenedorSeguroHogar{
-    background-image: linear-gradient(#33323281,transparent ), url(/IMG/FondoSeguroHogar.jpg);
+.contenedorSeguroHogar {
+    background-image: linear-gradient(#33323281, transparent), url(/capitalBank/views/img/fondoSeguroHogar.jpg);
 }
 
 /* SeguroHogar.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 
-.contenedorSeguroSalud{
-    background-image: linear-gradient(#33323281,transparent ), url(/IMG/FondoSeguroSalud.jpg);
+.contenedorSeguroSalud {
+    background-image: linear-gradient(#33323281, transparent), url(/capitalBank/views/img/fondoSeguroSalud.jpg);
 
 }
 

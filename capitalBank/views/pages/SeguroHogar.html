@@ -4,41 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/StylesSeguros.css">
+    <link rel="stylesheet" href="/capitalBank/views/css/seguros.css">
     <title>Seguro de Hogar</title>
 </head>
 
 <body>
     <header>
-        <img src="IMG/CBNormal.jpg">
-        <div class="TituloBanco">
-            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
-                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        <img src="/capitalBank/views/img/CBNormal.jpg" />
+        <div class="contenedorTituloBanco">
+            <h1 class="tituloBanco">
+                <button class="botonPrincipal" id="PaginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank
+            </h1>
         </div>
         <p class="slogan">Tu banco de confianza</p>
-        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+        <button class="botonlogin" id="loginBoton" onclick="IrALogin()">
+            Inicio / Registro
+        </button>
     </header>
-    <div class="BarraNav">
+    <div class="barraNavegacion">
         <nav>
             <ul>
-                <div class="BotonesBarraNav">
-                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
+                <div class="botonesBarraNavegacion">
+                    <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()">
+                        <b>Cuentas De Ahorro</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
+                    <button class="boton" id="serviciosBoton" onclick="IrAServicios()">
+                        <b>Servicios</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="IrALineasCredito()">
+                        <b>Lineas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
-                            Credito</b>
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="IrATarjetasCredito()">
+                        <b>Tarjetas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
+                    <button class="boton" id="segurosBoton" onclick="IrASeguros()">
+                        <b>Seguros</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
+                    <button class="boton" id="empresasBoton" onclick="IrAEmpresas()">
+                        <b>Empresas</b>
                     </button>
                 </div>
             </ul>
@@ -47,10 +55,11 @@
 
     <section class="contenedorSeguroHogar">
         <h3>Seguro de Hogar Capital Bank</h3>
-        <p class="ParrafoSeguro">Protege tu hogar y tus pertenencias con nuestra cobertura integral. Vive tranquilo sabiendo que estás protegido contra imprevistos.</p>
+        <p class="parrafoSeguro">Protege tu hogar y tus pertenencias con nuestra cobertura integral. Vive tranquilo
+            sabiendo que estás protegido contra imprevistos.</p>
 
-        <div class="targetsAutos">
-            <div class="card" >
+        <div class="targetasAutos">
+            <div class="card">
                 <h5>Protección Estructural</h5>
                 <p>Cobertura para daños a la estructura de tu hogar, incluyendo techos, paredes y cimientos.
                 </p>
@@ -62,11 +71,11 @@
             <div class="card">
                 <h5>Responsabilidad Civil</h5>
                 <p>Te protegemos ante posibles demandas por accidentes ocurridos en tu propiedad.</p>
-            </div >
+            </div>
             <div class="card">
                 <h5>Desastres Naturales</h5>
                 <p>Cobertura contra daños causados por fenómenos naturales como inundaciones o terremotos.</p>
-            </div >
+            </div>
         </div>
         <div class="cardFinal">
             <h5>Obtén tu cotización personalizada</h5>
@@ -81,12 +90,12 @@
                 <input type="number" required placeholder="600.000.000">
             </form>
             <label class="botonCotizar" for="modal">Solicitar Cotizacion</label>
-            
-        </div >
+
+        </div>
     </section>
     <input id="modal" type="checkbox">
-    <label  class="acesor" for="modal">
-        
+    <label class="acesor" for="modal">
+
         <div class="card">
             <label class="cerrar" for="modal">X</label>
             <p>Has seleccionado Seguro de Hogar. Un asesor se pondrá en contacto contigo pronto.</p>
@@ -97,7 +106,7 @@
 
 
 
-    <script src="JS/Script.js"></script>
+    <script src="/capitalBank/views/js/Script.js"></script>
     <footer>
     </footer>
 </body>

@@ -4,51 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/StylesTarjetas.css">
+    <link rel="stylesheet" href="/capitalBank/views/css/tarjetas.css">
     <title>Tarjetas De Credito</title>
 </head>
 
 <body>
     <header>
-        <img src="IMG/CBNormal.jpg">
-        <div class="TituloBanco">
-            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
-                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        <img src="/capitalBank/views/img/CBNormal.jpg" />
+        <div class="contenedorTituloBanco">
+            <h1 class="tituloBanco">
+                <button class="botonPrincipal" id="PaginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank
+            </h1>
         </div>
         <p class="slogan">Tu banco de confianza</p>
-        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+        <button class="botonlogin" id="loginBoton" onclick="IrALogin()">
+            Inicio / Registro
+        </button>
     </header>
-    <div class="BarraNav">
+    <div class="barraNavegacion">
         <nav>
             <ul>
-                <div class="BotonesBarraNav">
-                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
+                <div class="botonesBarraNavegacion">
+                    <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()">
+                        <b>Cuentas De Ahorro</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
+                    <button class="boton" id="serviciosBoton" onclick="IrAServicios()">
+                        <b>Servicios</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="IrALineasCredito()">
+                        <b>Lineas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
-                            Credito</b>
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="IrATarjetasCredito()">
+                        <b>Tarjetas De Credito</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
+                    <button class="boton" id="segurosBoton" onclick="IrASeguros()">
+                        <b>Seguros</b>
                     </button>
                     <span class="separador"></span>
-                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
+                    <button class="boton" id="empresasBoton" onclick="IrAEmpresas()">
+                        <b>Empresas</b>
                     </button>
                 </div>
             </ul>
         </nav>
     </div>
 
-    <script src="JS/Script.js"></script>
-
     <div class="relleno">
-        <div class="contenido-principal">
+        <div class="contenedorPrincipal">
             <h1>Solicita la tarjeta de credito ideal para ti </h1>
 
             <p>Una tarjeta de crédito es un producto bancario con el que puedes hacer compras nacionales,
@@ -58,15 +64,15 @@
                 En Capital Bank tenemos diferentes tipos de tarjetas de crédito con las que podrás recibir distintos
                 beneficios. ¡Solicita tu opción favorita en nuestros canales digitales u oficinas!</p>
 
-            <a href="/solicitar.html">
-                <button class="boton-solicitar">solicitar</button>
+            <a href="/capitalBank/views/pages/solicitar.html">
+                <button class="botonSolicitar">solicitar</button>
             </a>
 
         </div>
         <section>
-            <img src="/IMG/61.jpg" alt="" width="300px" height="200px">
+            <img src="/capitalBank/views/img/solicitaTarjeta.jpg" alt="" width="300px" height="200px">
         </section>
-        <div class="tarjeta-clasica">
+        <div class="tarjetaClasica">
             <h1>
                 Tarjeta Clásicas
             </h1>
@@ -75,20 +81,20 @@
                 beneficios
                 limitados
             </p>
-            <img src="/IMG/clasica.jpg" alt="">
+            <img src="/capitalBank/views/img/tarjetaClasica.jpg" alt="">
         </div>
-        <section class="tarjeta-Gold">
+        <section class="tarjetaGold">
             <h1>Tarjeta Gold</h1>
             <P>
                 Dirigidas a personas con ingresos medios, ofrecen mayores límites de crédito y beneficios adicionales
                 como
                 seguros de viaje, protección de compras y programas de recompensas más atractivos.
             </P>
-            <img src="/IMG/Gold.PNG" alt="" width="200px" height="200px">
+            <img src="/capitalBank/views/img/tarjetaGold.PNG" alt="" width="200px" height="200px">
         </section>
     </div>
 
-    <script src="JS/Script.js"></script>
+    <script src="/capitalBank/views/js/Script.js"></script>
 
     <footer>
     </footer>
