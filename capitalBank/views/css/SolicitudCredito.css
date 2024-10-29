@@ -1,9 +1,11 @@
 /*EstilosGenerales.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /*HeaderPrincipal.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
@@ -16,7 +18,7 @@ header {
     align-items: center;
 }
 
-.titulo-contenedor {
+.tituloContenedor {
     position: relative;
     height: 100px;
     /* ajusta la altura del contenedor */
@@ -25,7 +27,7 @@ header {
     align-items: center;
 }
 
-.TituloBanco {
+.tituloBanco {
     position: relative;
     top: -15%;
     /* ajusta la distancia desde la parte superior */
@@ -33,7 +35,6 @@ header {
     transform: translateX(-50%);
     color: white;
     font-size: 35px;
-
 }
 
 .slogan {
@@ -46,7 +47,7 @@ header {
     font-size: 15px;
 }
 
-.botonlogin {
+.botonLogin {
     border-radius: 10px;
     border-color: #229799;
     background-color: #424242;
@@ -61,7 +62,7 @@ header {
     right: 20px;
 }
 
-.BPrincipal {
+.botonPrincipal {
     position: absolute;
     top: 18%;
     left: -5%;
@@ -72,8 +73,10 @@ header {
     border: none;
 }
 
+
 /*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-.BarraNav {
+
+.barraNavegador {
     background-color: #229799;
     padding: 1%;
     text-align: center;
@@ -83,7 +86,7 @@ header {
     align-items: center;
 }
 
-.BotonesBarraNav {
+.botonesBarraNavegador {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,7 +94,7 @@ header {
 }
 
 .boton {
-    margin:  5px;
+    margin: 5px;
     border: none;
     border-radius: 10px;
     background-color: #229799;
@@ -108,16 +111,13 @@ header {
     background-color: #48CFCB;
 }
 
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
 }
 
-.ContenedorPrincipal {
+.contenedorPrincipal {
     max-width: 50%;
     margin: auto;
     background: rgb(240, 238, 238);
@@ -159,7 +159,7 @@ input[type="number"] {
 button {
     width: 20%;
     padding: 10px;
-    background-color: #229799;;
+    background-color: #229799;
     color: white;
     border: none;
     border-radius: 5px;
@@ -167,6 +167,5 @@ button {
 }
 
 button:hover {
-    background-color:  #48CFCB;
+    background-color: #48CFCB;
 }
-
