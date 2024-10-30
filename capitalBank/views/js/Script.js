@@ -6,32 +6,32 @@ function IrALogin() {
     window.location.href = "login.html";
 }
 function IrAPrincipal() {
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 }
 function IrAServicios() {
-    window.location.href = "servicios.html";
+    window.location.href = "/capitalBank/views/pages/servicios.html";
 }
 function IrATarjetasCredito() {
-    window.location.href = "tarjetas.html";
+    window.location.href = "/capitalBank/views/pages/tarjetas.html";
 }
 function IrACuentasAhorro() {
-    window.location.href = "cuentasAhorros.html";
+    window.location.href = "/capitalBank/views/pages/cuentasAhorros.html";
 }
 function IrALineasCredito() {
-    window.location.href = "lineasCredito.html";
+    window.location.href = "/capitalBank/views/pages/lineasCredito.html";
 }
 function IrAEmpresas() {
-    window.location.href = "empresas.html";
+    window.location.href = "/capitalBank/views/pages/empresas.html";
 }
 function IrASeguros() {
-    window.location.href = "seguros.html";
+    window.location.href = "/capitalBank/views/pages/seguros.html";
 }
 //botones de los servicios
 function IrANotificacion() {
-    window.location.href = "notificaciones.html";
+    window.location.href = "/capitalBank/views/pages/notificaciones.html";
 }
 function IrATransferencias() {
-    window.location.href = "transferencias.html";
+    window.location.href = "/capitalBank/views/pages/transferencias.html";
 }
 function IrAPagoFactura() {
     window.location.href = ".html";
