@@ -1,9 +1,9 @@
 //botones del header y barra de navegacion primerias
 function IrARegistro() {
-    window.location.href = "register.html";
+    window.location.href = "/capitalBank/views/pages/register.html";
 }
 function IrALogin() {
-    window.location.href = "login.html";
+    window.location.href = "/capitalBank/views/pages/login.html";
 }
 function IrAPrincipal() {
     window.location.href = "/index.html";
