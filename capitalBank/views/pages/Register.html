@@ -5,26 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrandose</title>
-    <link rel="stylesheet" href="CSS/StylesRegister.css">
+    <link rel="stylesheet" href="../css/register.css">
 
 </head>
 
 <body>
-    <div id="contenedor-registro" class="contenedor-registro">
+    <div id="contenedorRegistro" class="contenedorRegistro">
         <form>
             <h2>Registrarse</h2>
-            <input type="text" placeholder="Nombre Usuario" id="nombre-usuario" required>
-            <input type="email" placeholder="Correo Electronico" id="correo-electronico" required>
-            <input type="password" placeholder="Contraseña" id="contraseña-registro" required>
-            <input type="password" placeholder="Confirmar contraseña" id="confirmar-contraseña" required>
+            <input type="text" placeholder="Nombre Usuario" id="nombreUsuario" required>
+            <input type="email" placeholder="Correo Electronico" id="correoElectronico" required>
+            <input type="password" placeholder="Contraseña" id="contraseñaRegistro" required>
+            <input type="password" placeholder="Confirmar contraseña" id="confirmarContraseña" required>
             <div class="botones">
-                <button id="crear-cuenta">Crear cuenta</button>
-                <button id="iniciar-sesion" onclick="window.location.href='login.html'">Inicie sesión</button>
-                <button id="cerrar-modal" onclick="window.location.href='index.html'">Cerrar</button>
+                <button id="crearCuenta">Crear cuenta</button>
+                <button id="iniciarSesion" onclick="window.location.href='login.html'">Inicie sesión</button>
+                <button id="cerrarModal" onclick="window.location.href='index.html'">Cerrar</button>
             </div>
         </form>
     </div>
-    <img src="IMG/inicio_registro.jpg" class="imagen-register">
+    <img src="IMG/inicio_registro.jpg" class="imagenRegister">
 </body>
 
 </html>

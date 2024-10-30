@@ -4,55 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/StylesTransferencias.css">
+    <link rel="stylesheet" href="../css/transferencias.css">
     <title>Transferencias electronicas</title>
 </head>
 
 <body>
     <header>
         <img src="IMG/CBNormal.jpg">
-        <div class="TituloBanco">
-            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
-                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        <div class="tituloContenedor">
+            <h1 class="tituloBanco"> <button class="botonPrincipal" id="paginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank</h1>
         </div>
         <p class="slogan">Tu banco de confianza</p>
-        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+        <button class="botonLogin" id="loginBoton" onclick="IrALogin()">Inicio / Registro</button>
     </header>
-    <div class="BarraNav">
+    <div class="barraNavegador">
         <nav>
             <ul>
-                <div class="BotonesBarraNav">
-                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
-                            Credito</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
-                    </button>
+                <div class="botonesBarraNavegador">
+                    <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b></button>
+                    <span></span>
+                    <button class="boton" id="serviciosBoton" onclick="IrAServicios()"> <b>Servicios</b></button>
+                    <span></span>
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="IrALineasCredito()"> <b>Lineas De Credito</b></button>
+                    <span></span>
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="IrATarjetasCredito()"> <b>Tarjetas De Credito</b></button>
+                    <span></span>
+                    <button class="boton" id="segurosBoton" onclick="IrASeguros()"> <b>Seguros</b></button>
+                    <span></span>
+                    <button class="boton" id="empresasBoton" onclick="IrAEmpresas()"> <b>Empresas</b></button>
                 </div>
             </ul>
         </nav>
     </div>
-    <img class="ImgTrans" src="IMG/TransferenciaPortada.jpeg">
-    <div class="Transferencias">
+    <img class="imagenTransferencia" src="IMG/TransferenciaPortada.jpeg">
+    <div class="contenedorTransferencias">
         <h2>Tipo De Cuenta</h2>
-        <button class="btnregresar" onclick="IrAServicios()"> <b> X </b> </button>
-        <section class="TipoCuenta">
+        <button class="botonRegresar" onclick="IrAServicios()"> <b> X </b> </button>
+        <section class="tipoCuenta">
             <input type="radio" name="notificaciones" value="Si"> Ahorros
             <input type="radio" name="notificaciones" value="No"> Corriente
         </section>
-        <form class="TransForm">
+        <form class="formularioTransferencia">
             <h4>Numero De Cuenta</h4>
             <input type="number" id="numerouenta" required>
             <h4>Cantidad A Trannsferir</h4>
@@ -60,8 +52,7 @@
         </form>
     </div>
     <script src="JS/Script.js"></script>
-    <footer>
-    </footer>
+    <footer></footer>
 </body>
 
 </html>

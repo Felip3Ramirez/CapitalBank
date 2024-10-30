@@ -1,9 +1,11 @@
 /*EstilosGenerales.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /*HeaderPrincipal.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
@@ -16,7 +18,7 @@ header {
     align-items: center;
 }
 
-.titulo-contenedor {
+.tituloContenedor {
     position: relative;
     height: 100px;
     display: flex;
@@ -31,7 +33,6 @@ header {
     transform: translateX(-50%);
     color: white;
     font-size: 35px;
-
 }
 
 .slogan {
@@ -43,7 +44,7 @@ header {
     font-size: 15px;
 }
 
-.botonlogin {
+.botonLogin {
     border-radius: 10px;
     border-color: #229799;
     background-color: #424242;
@@ -59,7 +60,7 @@ header {
     cursor: pointer;
 }
 
-.BPrincipal {
+.botonPrincipal {
     position: absolute;
     top: 18%;
     left: -5%;
@@ -71,9 +72,10 @@ header {
     cursor: pointer;
 }
 
+
 /*BarraNav.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
-.BarraNav {
+.barraNavegador {
     background-color: #229799;
     padding: 1%;
     text-align: center;
@@ -83,7 +85,7 @@ header {
     align-items: center;
 }
 
-.BotonesBarraNav {
+.botonesBarraNavegador {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,78 +111,48 @@ header {
     background-color: #48CFCB;
 }
 
-/*Imagen.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
-.ImgTrans {
-    display: flex   ;
-    height: 100%;
+/*Imagen Y Botones.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+.contenedorBotones {
+    display: flex;
+}
+
+.imagenServicios {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/*ContenedorTransferencias.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-
-.Transferencias{
-position: absolute;
-padding: 40px;
-background-color: #424242d7;
-border-radius: 20px;
-width: 25%;
-height: 50%;
-top: 55%;
-left: 59%;
-transform: translate(-50%, -50%);
-z-index: 1;
-}
-
-h2{
-    color: white;
-}
-
-/*Transferencias.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
-.TipoCuenta{
-    color: white;
-    margin-left: 25%;
-    margin-top: 10%;
-}
-
-input[type="radio"] {
-    transform: scale(2); 
-    margin: 10px;
-}
-.btnregresar{
+.botonesServicios {
     position: absolute;
-    top: 5%;
-    right: 5%;
-    width: 5%; 
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    background-color: transparent;
-    transition: background-color 0.5s ease;
-    font-size: 20px;
+    height: 50%;
+    width: 50%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonServicio {
+    background-color: #424242;
     color: white;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #48CFCB;
+    flex-basis: 30%;
+    height: 30%;
+    margin: 10px;
+    font-size: 25px;
     cursor: pointer;
 }
-.btnregresar:hover{
-    background-color: #48CFCB;
-}
-.TransForm{
-    margin-top: 10%;
-}
-.TransForm input{
-    width: 100%;
-    margin: 10px;
-    height: 25px;
-    border-radius: 10px;
-    font-size: 20px;
-    color: #424242;
-}
-.TransForm h4{
-    font-size: 20px;
-    color: white;
-    margin-left: 20px;
-}
-/*PieDePagina.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+
+/*PieDePagina.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.*/
 
 footer {
     background-color: #424242;

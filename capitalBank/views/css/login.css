@@ -1,10 +1,12 @@
+/*EstilosGenerales.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.imagen-register {
+.imagenLogin {
     position: absolute;
     top: 0;
     right: 0;
@@ -13,7 +15,7 @@
     object-fit: cover;
 }
 
-.contenedor-registro {
+.contenedorLogin {
     background-color: #424242;
     padding: 20px;
     border-radius: 10px;
@@ -27,12 +29,12 @@
     z-index: 1;
 }
 
-.contenedor-registro h2 {
+.contenedorLogin h2 {
     color: #229799;
     margin-bottom: 20px;
 }
 
-.contenedor-registro input {
+.contenedorLogin input {
     width: 80%;
     height: 30px;
     margin: 10px;
@@ -42,12 +44,21 @@
     font-size: 16px;
 }
 
+.contenedorLogin input:focus {
+    border: none;
+}
+
 .botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 20px;
 }
 
 .botones button {
+    display: flex;
     width: 50%;
     height: 30px;
     margin: 10px;
@@ -58,6 +69,8 @@
     cursor: pointer;
     background-color: #229799;
     color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 .botones button:hover {
