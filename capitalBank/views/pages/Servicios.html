@@ -4,69 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/StylesServicios.css">
+    <link rel="stylesheet" href="../css/servicios.css">
     <title>Servicios</title>
 </head>
 
 <body>
     <header>
         <img src="IMG/CBNormal.jpg">
-        <div class="TituloBanco">
-            <h1 class="TituloBanco"> <button class="BPrincipal" id="PaginaPrincipal"
-                    onclick="IrAPrincipal()"></button>Capital Bank</h1>
+        <div class="tituloContenedor">
+            <h1 class="TituloBanco"> <button class="botonPrincipal" id="PaginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank</h1>
         </div>
         <p class="slogan">Tu banco de confianza</p>
-        <button class="botonlogin" id="LoginBtn" onclick="IrALogin()">Inicio / Registro</button>
+        <button class="botonLogin" id="loginBoton" onclick="IrALogin()">Inicio / Registro</button>
     </header>
-    <div class="BarraNav">
+    <div class="barraNavegador">
         <nav>
             <ul>
-                <div class="BotonesBarraNav">
-                    <button class="boton" id="CuentasDeAhorroBtn" onclick="IrACuentasAhorro()"> <b>Cuentas De Ahorro</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="ServiciosBtn" onclick="IrAServicios()"> <b>Servicios</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="LineasDeCreditoBtn" onclick="IrALineasCredito()"> <b>Lineas De Credito</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="TarjetasDeCreditoBtn" onclick="IrATarjetasCredito()"> <b>Tarjetas De
-                            Credito</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="SegurosBtn" onclick="IrASeguros()"> <b>Seguros</b>
-                    </button>
-                    <span class="separador"></span>
-                    <button class="boton" id="EmpresasBtn" onclick="IrAEmpresas()"> <b>Empresas</b>
-                    </button>
+                <div class="botonesBarraNavegador">
+                    <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()"><b>Cuentas De Ahorro</b></button>
+                    <span></span>
+                    <button class="boton" id="serviciosBoton" onclick="IrAServicios()"><b>Servicios</b></button>
+                    <span></span>
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="IrALineasCredito()"> <b>Lineas De Credito</b></button>
+                    <span></span>
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="IrATarjetasCredito()"><b>Tarjetas De Credito</b></button>
+                    <span></span>
+                    <button class="boton" id="segurosBoton" onclick="IrASeguros()"><b>Seguros</b></button>
+                    <span></span>
+                    <button class="boton" id="empresasBoton" onclick="IrAEmpresas()"><b>Empresas</b></button>
                 </div>
             </ul>
         </nav>
     </div>
-    <div class="ContenedorBotones">
-        <img src="IMG/ServiciosPortada.jpg" alt="Imagen de Servicios" class="ImagenServicios">
-        <div class="BotonesServicios">
-            <button class="botonservicio" id="PagosPSE" onclick="IrAPagosPSE()"> <b>Pagos PSE</b>
-            </button>
-            <button class="botonservicio" id="NotificacionTransaccion" onclick="IrANotificacion()"> <b>Notificacion De
-                    Transaccion</b>
-            </button>
-            <button class="botonservicio" id="TransferenciasElectronicas" onclick="IrATransferencias()">
-                <b>Transferencias Electronicas</b>
-            </button>
-            <button class="botonservicio" id="PagoDeFacturas" onclick="IrAPagoFactura()"> <b>Pago Facturas</b>
-            </button>
-            <button class="botonservicio" id="ConsultaMovimientos" onclick="IrAConsultaMovimientos()"> <b>Consulta DE
-                    Movimientos</b>
-            </button>
-            <button class="botonservicio" id="ConsultaCuenta" onclick="IrAConsultaCuenta()"> <b>Consulte Su Cuenta</b>
-            </button>
+
+    <div class="contenedorBotones">
+        <img src="IMG/ServiciosPortada.jpg" alt="Imagen de Servicios" class="imagenServicios">
+        <div class="botonesServicios">
+            <button class="botonServicio" id="pagosPSE" onclick="IrAPagosPSE()"> <b>Pagos PSE</b></button>
+            <button class="botonServicio" id="notificacionTransaccion" onclick="IrANotificacion()"> <b>Notificacion De Transaccion</b></button>
+            <button class="botonServicio" id="transferenciasElectronicas" onclick="IrATransferencias()"><b>Transferencias Electronicas</b></button>
+            <button class="botonServicio" id="pagoDeFacturas" onclick="IrAPagoFactura()"> <b>Pago Facturas</b></button>
+            <button class="botonServicio" id="consultaMovimientos" onclick="IrAConsultaMovimientos()"><b>Consulta De Movimientos</b></button>
+            <button class="botonServicio" id="consultaCuenta" onclick="IrAConsultaCuenta()"><b>Consulte Su Cuenta</b></button>
         </div>
     </div>
     <script src="JS/Script.js"></script>
-    <footer>
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
