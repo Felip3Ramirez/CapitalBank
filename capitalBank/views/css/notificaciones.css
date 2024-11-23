@@ -26,7 +26,8 @@ header {
     align-items: center;
 }
 
-.tituloBanco {
+.tituloBanco,
+.contenedorTituloBanco {
     position: relative;
     top: -15%;
     left: 15%;
@@ -152,6 +153,7 @@ form {
 }
 
 .regresarNotificaciones {
+    margin-top: -50px;
     position: absolute;
     right: 45%;
     top: 80%;

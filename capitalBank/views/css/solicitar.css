@@ -109,11 +109,11 @@ header {
 .boton:hover {
     background-color: #48CFCB;
 }
-
+/*Contenedor----------------------------------------------------------------------------------------------------------*/
 .formulario{
     
     font-family: Arial, sans-serif;
-    background-image: url(/capitalBank/views/img/fondoSolicitar.jpg);
+    background-image: url(/capitalBank/views/img/fondoTarjetaDoble.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -124,27 +124,47 @@ header {
 
 
 }
+
 form{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 label {
     color: #fff;
-    display: block;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
-input, select {
+select {
     width: 60%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-button {
+/* .formulario form input{
+    
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+#numeroCedula,#primerNombre,#primerApellido,#ingresosmensuales,#ingresosMensuales,#numeroCelular,#correoElectronico{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.terminos{
+    margin-bottom: 20px;
+}
+.enviar {
     background-color: #4CAF50;
     color: white;
     padding: 15px 20px;

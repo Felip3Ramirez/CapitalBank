@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="/capitalBank/views/img/CBNormal.jpg" />
+        <img src="/capitalBank/views/img/cerdoGris.jpg" />
         <div class="contenedorTituloBanco">
             <h1 class="tituloBanco">
                 <button class="botonPrincipal" id="PaginaPrincipal" onclick="IrAPrincipal()"></button>Capital Bank
@@ -25,6 +25,7 @@
         <nav>
             <ul>
                 <div class="botonesBarraNavegacion">
+<<<<<<< Updated upstream
                     <button class="boton" id="cuentasDeAhorroBoton" onclick="IrACuentasAhorro()">
                         <b>Cuentas De Ahorro</b>
                     </button>
@@ -46,6 +47,26 @@
                     </button>
                     <span ></span>
                     <button class="boton" id="empresasBoton" onclick="IrAEmpresas()">
+=======
+                    
+                    <button class="boton" id="serviciosBoton" onclick="irAServicios()">
+                        <b>Servicios</b>
+                    </button>
+                    
+                    <button class="boton" id="lineasDeCreditoBoton" onclick="irALineasCredito()">
+                        <b>Lineas De Credito</b>
+                    </button>
+                    
+                    <button class="boton" id="tarjetasDeCreditoBoton" onclick="irATarjetasCredito()">
+                        <b>Tarjetas De Credito</b>
+                    </button>
+                    
+                    <button class="boton" id="segurosBoton" onclick="irASeguros()">
+                        <b>Seguros</b>
+                    </button>
+                    
+                    <button class="boton" id="empresasBoton" onclick="irAEmpresas()">
+>>>>>>> Stashed changes
                         <b>Empresas</b>
                     </button>
                 </div>
@@ -56,6 +77,7 @@
         <div class="formulario">
 
             <form>
+                
                 <label for="numeroCedula"> Número de Cédula:</label>
                 <input type="text" id="numeroCedula" name="numeroCedula" placeholder="Ingrese su Numero de cedula">
 
@@ -64,16 +86,15 @@
 
                 <label for="primerApellido">Primer Apellido:</label>
                 <input type="text" id="primerApellido" name="primerApellido" placeholder="Ingrese tu Apellido">
-                <label>¿Cuál es tu ocupación?</label>
-
+                 
                 <div>
                     <input type="radio" id="asalariado" name="ocupacion" value="asalariado">
                     <label for="asalariado">Asalariado</label>
+                    <input type="radio" id="contratoLaboral" name="ocupacion" value="contratoLaboral">
+                    <label for="contratoLaboral">Con contrato laboral</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="contratoLaboral" name="ocupacion" value="contratoLaboral">
-                    <label for="contratoLaboral">Con contrato laboral</label>
                 </div>
                 <label for="ingresosMensuales">Ingresos mensuales totales:</label>
                 <input type="number" id="ingresosMensuales" name="ingresosMensuales" placeholder="Ingrese un Monto">
@@ -91,15 +112,17 @@
                     <option value="">Año</option>
                 </select>
                 <label for="numeroCelular">Número de celular:</label>
-                <input type="tel" id="numeroCelular" name="numeroCelular" placeholder="Ingrese su Telefono">>
-                <label for="correoElectronico">Correo electrónico:</label>
+                <input type="tel" id="numeroCelular" name="numeroCelular" placeholder="Ingrese su Telefono">
+                <label for="correoElectronico">Correo electrónico: </label>
                 <input type="email" id="correoElectronico" name="correoElectronico" placeholder="Ingrese tu correo">
 
-                <div>
-                    <input type="checkbox" id="terminos" name="terminos" required>
-                    <label for="terminos">Acepto Términos y condiciones</label>
-                </div>
-                <button type="submit">Continuar</button>
+                <div class="contenedorTerminosCondiciones">
+                    <input type="checkbox" class="terminos" id="terminos" name="terminos" required>
+                    
+                    <label for="terminos">
+                        Acepto Términos y condiciones</label>
+                    </div>
+                <button class="enviar" type="submit">Continuar</button>
             </form>
         </div>
         <script src="/capitalBank/views/js/Script.js"></script>
