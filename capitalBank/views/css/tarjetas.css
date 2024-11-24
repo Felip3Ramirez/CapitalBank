@@ -120,10 +120,7 @@ footer {
 
 }
 
-body {
-    font-family: sans-serif;
 
-}
 
 .contenedorPrincipal {
     width: 1000px;
@@ -135,7 +132,7 @@ body {
 
 }
 
-h1 {
+h2 {
     justify-content: center;
     margin: 20px;
     padding: 10px;
@@ -188,7 +185,7 @@ section {
     left: 2%;
 }
 
-.tarjetaGold h1 {
+.tarjetaGold h2 {
     font-size: 40px;
 }
 
