@@ -59,7 +59,7 @@ function showInfo(id) {
     }
 
     const section = document.getElementById(id);
-    const info = section.querySelector(".additional-info");
+    const info = section.querySelector(".informacionAdicional");
 
     // Crea el modal
     const modal = document.createElement("div");
