@@ -47,7 +47,7 @@
                     </button>
                 </div>
             </ul>
-        </nav>
+        </nav></div>
     </div>
 
     <section class="contenedorSeguroAuto">
@@ -75,7 +75,7 @@
         </div>
         <div class="cardFinal">
             <h5>Obten tu Cotizacion Gratuita</h5>
-            <form action="">
+            <form id="formulario-seguro-auto" action="">
                 <label for="">Nombre Completo</label>
                 <input name="seguro-auto-nombre" id="seguro-auto-nombre" type="text" required placeholder="Juan Castor Lopez">
                 <label for="">Correo Electronico</label>
@@ -84,8 +84,8 @@
                 <input name="seguro-auto-telefono" id="seguro-auto-telefono" type="tel" required placeholder="3136483928">
                 <label for="">Modelo del Auto</label>
                 <input name="seguro-auto-modelo" id="seguro-auto-modelo" type="text" required placeholder="Mazda Premiun 2016">
+                <label id="botonSolicitar" type="button" class="botonCotizar" for="modal">Solicitar Cotizacion</label>
             </form>
-            <label class="botonCotizar" for="modal">Solicitar Cotizacion</label>
 
         </div>
     </section>
@@ -102,7 +102,8 @@
 
 
 
-    <script src="/capitalBank/views/js/Script.js"></script>
+    <script type="module" src="/capitalBank/views/js/Script.js"></script>
+    <script type="module" src="../js/scriptSeguro.js"></script>
     <footer>
     </footer>
 </body>
