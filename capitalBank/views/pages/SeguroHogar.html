@@ -25,23 +25,23 @@
         <nav>
             <ul>
                 <div class="botonesBarraNavegacion">
-                    
+
                     <button class="boton" id="serviciosBoton" onclick="irAServicios()">
                         <b>Servicios</b>
                     </button>
-                    <span ></span>
+
                     <button class="boton" id="lineasDeCreditoBoton" onclick="irALineasCredito()">
                         <b>Lineas De Credito</b>
                     </button>
-                    <span ></span>
+
                     <button class="boton" id="tarjetasDeCreditoBoton" onclick="irATarjetasCredito()">
                         <b>Tarjetas De Credito</b>
                     </button>
-                    <span ></span>
+
                     <button class="boton" id="segurosBoton" onclick="irASeguros()">
                         <b>Seguros</b>
                     </button>
-                    <span ></span>
+
                     <button class="boton" id="empresasBoton" onclick="irAEmpresas()">
                         <b>Empresas</b>
                     </button>
@@ -76,17 +76,21 @@
         </div>
         <div class="cardFinal">
             <h5>Obtén tu cotización personalizada</h5>
-            <form action="">
+            <form id="formulario-seguro-hogar" action="">
                 <label for="">Nombre Completo</label>
-                <input name="seguro-hogar-nombre" id="seguro-hogar-nombre" type="text" required placeholder="Juan Castor Lopez">
+                <input name="seguro-hogar-nombre" id="seguro-hogar-nombre" type="text" required
+                    placeholder="Juan Castor Lopez">
                 <label for="">Correo Electronico</label>
-                <input name="seguro-hogar-email" id="seguro-hogar-email" type="email" required placeholder="ejemplo@correo.com">
+                <input name="seguro-hogar-email" id="seguro-hogar-email" type="email" required
+                    placeholder="ejemplo@correo.com">
                 <label for="">Telefono</label>
-                <input name="seguro-hogar-telefono" id="seguro-hogar-telefono" type="tel" required placeholder="3136483928">
+                <input name="seguro-hogar-telefono" id="seguro-hogar-telefono" type="tel" required
+                    placeholder="3136483928">
                 <label for="">Valor Estimado de La Propiedad</label>
-                <input name="seguro-hogar-estimado" id="seguro-hogar-estimado" type="number" required placeholder="600.000.000">
+                <input name="seguro-hogar-estimado" id="seguro-hogar-estimado" type="number" required
+                    placeholder="600.000.000">
             </form>
-            <label class="botonCotizar" for="modal">Solicitar Cotizacion</label>
+            <label id="botonSolicitar" class="botonCotizar" for="modal">Solicitar Cotizacion</label>
 
         </div>
     </section>
@@ -104,6 +108,7 @@
 
 
     <script src="/capitalBank/views/js/Script.js"></script>
+    <script type="module" src="../js/scriptSeguro.js"></script>
     <footer>
     </footer>
 </body>

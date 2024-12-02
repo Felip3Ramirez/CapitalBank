@@ -15,3 +15,18 @@ export function formularioAuto (){
     console.log(newFormulario);
     
 }
+export function formularioHogar (){
+
+    var formularioHogarNombre = document.getElementById("seguro-hogar-nombre").value;
+    var formularioHogarCorreo = document.getElementById("seguro-hogar-email").value;
+    var formularioHogarTelefono = document.getElementById("seguro-hogar-telefono").value;
+    var formularioHogarEstimado = document.getElementById("seguro-hogar-estimado").value;
+    var newFormulario = {
+        nombre: formularioHogarNombre,
+        correo: formularioHogarCorreo,
+        telefono: formularioHogarTelefono,
+        estimado: formularioHogarEstimado
+    };
+    console.log(newFormulario);
+    
+}
