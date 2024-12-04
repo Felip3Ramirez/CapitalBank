@@ -11,20 +11,21 @@
 
 <body>
     <div id="contenedorRegistro" class="contenedorRegistro">
-        <form>
+        <form id="formulario-register">
             <h2>Registrarse</h2>
-            <input type="text" placeholder="Nombre Usuario" id="nombreUsuario" required>
-            <input type="email" placeholder="Correo Electronico" id="correoElectronico" required>
-            <input type="password" placeholder="Contraseña" id="contraseñaRegistro" required>
-            <input type="password" placeholder="Confirmar contraseña" id="confirmarContraseña" required>
+            <input type="text" placeholder="Nombre Usuario" id="register-usuario">
+            <input type="email" placeholder="Correo Electronico" id="register-correo">
+            <input type="password" placeholder="Contraseña" id="register-contrasena">
+            <input type="password" placeholder="Confirmar contraseña" id="register-confirmar-contrasena">
             <div class="botones">
                 <button id="crearCuenta">Crear cuenta</button>
-                <button id="iniciarSesion" onclick="window.location.href='login.html'">Inicie sesión</button>
+                <button id="iniciarSesion" onclick="window.location.href='Login.html'">Inicie sesión</button>
                 <button id="cerrarModal" onclick="window.location.href='/index.html'">Cerrar</button>
             </div>
         </form>
     </div>
     <img src="/capitalBank/views/img/inicioRegistroFondo.jpg" class="imagenRegister">
+    <script type="module" src="../js/scriptLogin.js"></script>
 </body>
 
 </html>

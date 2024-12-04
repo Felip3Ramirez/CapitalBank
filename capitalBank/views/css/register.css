@@ -64,3 +64,11 @@
     background-color: #48CFCB;
     color: black;
 }
+
+.correcto {
+    outline: solid 2px green;
+}
+
+.incorrecto {
+    outline: solid 2px red;
+}
