@@ -1,0 +1,13 @@
+{
+  "modelSeguro": [
+    {
+      "id": "1",
+      "nombre": "Seguro de vida",
+      "correo": "correo@correo.com",
+      "telefono": "3113434234",
+      "modelo": "mazda 2013",
+      "estimado": "1232334534"
+    }
+  ],
+  "modelLogin": []
+}
